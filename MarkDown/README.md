@@ -10,4 +10,4 @@ ESTILOS DE TEXTO <br>
 ## Tráiler de diseño: ORA por OneTap/ Valorant <br>
 [![Alt text](https://img.youtube.com/vi/c-6V50oD_nQ/0.jpg)](https://www.youtube.com/watch?v=c-6V50oD_nQ)
 ### Enlace de imagen
-![Visual Studio Code]([assets/7e52e545-357d-4d51-ade2-33078fbb9438.png](https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_480/https%3A%2F%2Fubuntu.com%2Fwp-content%2Fuploads%2Fc9f4%2Fvisualstudio_code-card.png))
+![Visual Studio Code](https://github.com/xAlejo/Recursos/blob/a221e9843b86d814c2c3d35fe42cb2f01bb14d0c/Visual_Studio_Code_1.35_icon.svg.png)
