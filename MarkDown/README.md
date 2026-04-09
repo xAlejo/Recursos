@@ -18,8 +18,7 @@ ESTILOS DE TEXTO <br>
 
 # Tips de ayuda <br>
 
-## Tips <br>
-ejemplos útiles
+* ejemplos útiles
 
 ### 📝 Estilos de texto
 
