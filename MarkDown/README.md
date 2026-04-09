@@ -15,10 +15,11 @@ ESTILOS DE TEXTO <br>
 #**ENLACE DE IMAGEN** <br>
 **Visual Studio Code** <br> <br>
 ![Visual Studio Code](https://github.com/xAlejo/Recursos/blob/a221e9843b86d814c2c3d35fe42cb2f01bb14d0c/Visual_Studio_Code_1.35_icon.svg.png)
-# Tips Extras <br>
-## Tips
 
-Estos son algunos ejemplos útiles de Markdown que utilicé en este proyecto:
+# Tips Extras <br>
+
+## Tips <br>
+ejemplos útiles
 
 ### 📝 Estilos de texto
 
@@ -29,12 +30,17 @@ Estos son algunos ejemplos útiles de Markdown que utilicé en este proyecto:
 
 ---
 
-### 📏 Espaciado
+### 📏 Espaciado Y Separador
 
 * `<br>` → se usa para hacer saltos de línea o separar texto
 
 Ejemplo:
-`Texto 1 <br> Texto 2`
+`Hola 1 <br> Hola 2`
+
+* `---` → se usa para crear una línea divisora (separar secciones)
+
+Ejemplo:
+`---`
 
 ---
 
