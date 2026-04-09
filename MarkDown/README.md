@@ -6,6 +6,6 @@ ESTILOS DE TEXTO <br>
 ***Estilo con negritas y cursiva*** <br>
 ~~Estilo Tachado~~ <br>
 
---
 #**ENLACE DE VIDEO**<br>
+## Tráiler de diseño: ORA por OneTap/ Valorant <br> <br>
 [![Alt text](https://img.youtube.com/vi/c-6V50oD_nQ/0.jpg)](https://www.youtube.com/watch?v=c-6V50oD_nQ)
