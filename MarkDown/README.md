@@ -16,7 +16,7 @@ ESTILOS DE TEXTO <br>
 **Visual Studio Code** <br> <br>
 ![Visual Studio Code](https://github.com/xAlejo/Recursos/blob/a221e9843b86d814c2c3d35fe42cb2f01bb14d0c/Visual_Studio_Code_1.35_icon.svg.png)
 
-# Tips Extras <br>
+# Tips de ayuda <br>
 
 ## Tips <br>
 ejemplos útiles
@@ -68,5 +68,3 @@ Ejemplo:
 * ` ` → se usa para bloques de código más grandes
 
 ---
-
-💡 Estos tips te ayudan a entender y reutilizar Markdown fácilmente en tus README.
