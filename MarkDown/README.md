@@ -1,7 +1,7 @@
 # EJEMPLO DE USO BASICO EN MARKDOWN
 ## ESTILOS
-ESTILOS DE TEXTO
-**Estilos en negritas**
-*Estilo en Cursiva*
-***Estilo con negritas y cursiva***
-~~Estilo Tachado~~
+ESTILOS DE TEXTO <br>
+**Estilos en negritas** <br>
+*Estilo en Cursiva* <br>
+***Estilo con negritas y cursiva*** <br>
+~~Estilo Tachado~~ <br>
