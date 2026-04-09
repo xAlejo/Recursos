@@ -5,3 +5,4 @@ ESTILOS DE TEXTO <br>
 *Estilo en Cursiva* <br>
 ***Estilo con negritas y cursiva*** <br>
 ~~Estilo Tachado~~ <br>
+´Para hacer la separacion de un texto se usa <br> ´
