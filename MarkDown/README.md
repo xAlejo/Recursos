@@ -10,3 +10,4 @@ ESTILOS DE TEXTO <br>
 ## Tráiler de diseño: ORA por OneTap/ Valorant <br>
 [![Alt text](https://img.youtube.com/vi/c-6V50oD_nQ/0.jpg)](https://www.youtube.com/watch?v=c-6V50oD_nQ)
 ### Enlace de imagen
+![JavaScripts](assets/7e52e545-357d-4d51-ade2-33078fbb9438.png)
