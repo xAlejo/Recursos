@@ -40,7 +40,7 @@ Ejemplo:
 * `---` → se usa para crear una línea divisora (separar secciones)
 
 Ejemplo:
-`---`
+---
 
 ---
 
