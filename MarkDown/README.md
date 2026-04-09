@@ -1,5 +1,5 @@
-## ejemplos de uso basico en markdown
-
+# EJEMPLO DE USO BASICO EN MARKDOWN
+## ESTILOS
 ESTILOS DE TEXTO
 **Estilos en negritas**
 *Estilo en Cursiva*
