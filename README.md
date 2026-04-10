@@ -1,6 +1,6 @@
 
 Indice
 ---
-*[MarkDown](MarkDown)
-*[VsCode](VsCode)
-*[Python](Python)
+*[MarkDown](MarkDown) <br>
+*[VsCode](VsCode) <br>
+*[Python](Python) <br>
