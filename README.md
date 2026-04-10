@@ -1,2 +1,2 @@
 # Recursos
-[MarkDown](Readme.md)
+[MarkDown](README.md)
