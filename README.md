@@ -1,4 +1,4 @@
-# recursos
+# RECURSOS
 
 Indice
 ---
