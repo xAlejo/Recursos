@@ -1,7 +1,7 @@
 # Ejercicios Propios
 
-# 1
-# Calculadora simple
+
+ 1. # Calculadora simple
 
 num1 = float(input("Primer número: "))
 operador = input("Operador (+, -, *, /): ")
