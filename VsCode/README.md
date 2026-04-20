@@ -1,7 +1,7 @@
 #  **VISUAL STUDIO CODE** <br><br>
 ¿Que es visual studio code? <br>
 * Es un editor de codigo fuente que combina la siplicidad con la eficiencia el cual fue creado por Microsoft. <br>
-¿Para que sirve? <br>
+# ¿Para que sirve? <br>
 * Sirve para identificar y corregir errores <br>
 * Gestion de proyectos y carpetas de trabajo <br>
 * Seguimiento y control de versiones del codigo <br>
