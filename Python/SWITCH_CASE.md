@@ -1,4 +1,4 @@
-#SWITCH CASE
+# SWITCH CASE
 lo que hace es evaluar un valor y lo va a comparar con cada uno de los casos y si coincide con alguno de esos caso recien empezara a ejecutar la funcion, en otras palabras es una estructura que sirve para tomar decisiones según el valor de una variable, como una forma más ordenada de reemplazar muchos if y elif
 
 ```python
