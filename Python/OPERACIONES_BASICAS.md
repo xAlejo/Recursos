@@ -9,7 +9,7 @@ Los tipos de datos principales son:
 * float (decimales)
 * bool (verdadero o falso)
 
-```
+```python
 ## Operaciones basicas de ejemplo
 
 # Suma:
