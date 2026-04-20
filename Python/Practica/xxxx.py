@@ -1,5 +1,5 @@
 # Ejercicios Propios
-```python
+
 # 1
 # Calculadora simple
 
@@ -24,4 +24,4 @@ elif operador == "/":
 
 else:
     print("Operador no válido")
-```
+
