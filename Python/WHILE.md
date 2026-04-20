@@ -15,3 +15,27 @@ while True:
     else:
         print("Contraseña incorrecta, Introduzca una contraseña correcta")
  ```
+* Si se quieren agregar intentos se realizaria de la siguente forma la variable
+
+```Python
+# Ejemplo
+
+
+contrasena = "Miyu"
+contador= 0
+
+while True:
+    contrasena_input= input("Ingrese la contraseña: ")
+    contador += 1
+    
+    if contador > 3:
+        print("Has excedido el número de intentos. Intenta más tarde.")
+        break
+        
+    elif contrasena_input == "Miyu":
+        print("Contraseña correcta. ")
+        break   
+        
+    else:
+        print("Contraseña incorrecta. Introduzca una contraseña correcta.)
+```
