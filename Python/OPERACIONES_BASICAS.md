@@ -12,7 +12,7 @@ Los tipos de datos principales son:
 ```python
 ## Operaciones basicas de ejemplo
 
-# Suma:
+#Suma:
 print("suma:", 4 + 4)
 
 
