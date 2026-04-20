@@ -9,19 +9,21 @@ Los tipos de datos principales son:
 * float (decimales)
 * bool (verdadero o falso)
 
+```
 ## Operaciones basicas de ejemplo
 
-Suma:
+# Suma:
 print("suma:", 4 + 4)
 
 
-Resta:
+# Resta:
 print("resta", 8 - 2)
 
 
-Multiplicación:
+# Multiplicación:
 print("multiplicacion", 4 * 3)
 
 
-División:
+# División:
 print("division", 10 / 2)
+```
