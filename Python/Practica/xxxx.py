@@ -2,6 +2,7 @@
 
 
  1. # Calculadora simple
+# se ingresan ambos digitos de forma separada y el simbolo matematico para que se calcule y de el resultado correcto.
 
 num1 = float(input("Primer número: "))
 operador = input("Operador (+, -, *, /): ")
