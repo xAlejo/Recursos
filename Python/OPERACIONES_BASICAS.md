@@ -9,19 +9,19 @@ Los tipos de datos principales son:
 * float (decimales)
 * bool (verdadero o falso)
 
-## Operaciones basicas de matematicas
+## Operaciones basicas de ejemplo
 
 Suma:
-print(5+3)
+print("suma:", 4 + 4)
 
 
 Resta:
-print(8-2)
+print("resta", 8 - 2)
 
 
 Multiplicación:
-print(4*3)
+print("multiplicacion", 4 * 3)
 
 
 División:
-print(10/2)
+print("division", 10 / 2)
