@@ -1,7 +1,9 @@
 # Funciones
-las funciones son cualquer lenguaje de programacion, son basicas para entender como extraer la logica de algo que queremos aplicar y separarla de los datos sobre los que se aplicar, esta sirve para crear listas de elementos
+las funciones son bloque de código que se puede reutilizar para hacer una tarea específica., son basicas para entender como extraer la logica de algo que queremos aplicar y separarla de los datos sobre los que se aplicar, esta sirve para crear listas de elementos
 
 ```python
+#Ejemplo
+
 def puntuacion(clase):
     returm sum(clase) / len(clase)
 
