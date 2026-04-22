@@ -7,3 +7,6 @@
 - [While](WHILE.md)
 - [Funciones](FUNCIONES.md)
 - [Switch Case](SWITCH_CASE.md)
+
+## Ejemplo de código Poo de una clase en Python
+- [poo_gato.py](poo_gato.py)
