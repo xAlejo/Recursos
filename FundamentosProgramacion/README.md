@@ -1,4 +1,4 @@
 # Material sobre Fundamentos de Programación
 
 
-[FundamentosProgramacion](FundamentosProgramacion)
+[FundamentosProgramacion/PARADIGMAS.md](FundamentosProgramacion/PARADIGMAS.md)
