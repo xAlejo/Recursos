@@ -159,5 +159,5 @@ Esto rompe la encapsulación porque modifica el atributo privado desde fuera de 
 
 ## Archivo del código fuente
 
-[personaje.py](personaje.py)
+[personaje.py](personaje.py) <br>
 [personaje_encapsulado.py](personaje_encapsulado.py)
