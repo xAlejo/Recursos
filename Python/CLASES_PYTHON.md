@@ -351,7 +351,7 @@ Los métodos permiten:
 
 ### Código del proyecto
 
-[Ver código de práctica final](mascota_practica.py)
+[mascota_practica.py](mascota_practica.py)
 
 ## Archivo del código fuente
 
@@ -359,4 +359,3 @@ Los métodos permiten:
 [personaje_encapsulado.py](personaje_encapsulado.py) <br>
 [personaje_herencia.py](personaje_herencia.py) <br>
 [personaje_polimorfismo.py](personaje_polimorfismo.py) <br>
-[mascota_practica.py](mascota_practica.py)
