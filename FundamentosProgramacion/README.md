@@ -1,4 +1,4 @@
 # Material sobre Fundamentos de Programación
 
 
-[PARADIGMAS](PARADIGMAS)
+[PARADIGMAS](PARADIGMAS.md)
