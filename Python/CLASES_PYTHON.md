@@ -157,7 +157,110 @@ mi_personaje._Personaje__fuerza = -5
 
 Esto rompe la encapsulación porque modifica el atributo privado desde fuera de la clase.
 
+## Herencia
+
+La herencia permite crear nuevas clases a partir de una clase existente.  
+Esto significa que una clase hija puede reutilizar atributos y métodos de una clase padre sin escribir nuevamente el mismo código.
+
+---
+
+### ¿Por qué cuando se crea la clase Guerrero heredando de Personaje genera error el código?
+
+El error aparece porque la clase `Guerrero` tiene un atributo nuevo llamado `espada`, pero si no se llama correctamente al constructor de la clase padre, los atributos originales como `nombre`, `fuerza` o `vida` no se inicializan.
+
+```python
+class Guerrero(Personaje):
+    def __init__(self, nombre, fuerza, inteligencia, defensa, vida, espada):
+        super().__init__(nombre, fuerza, inteligencia, defensa, vida)
+        self.espada = espada
+```
+
+La función `super()` permite iniciar primero la clase padre.
+
+---
+
+### ¿Cuándo en el video se menciona la superclase a qué se refiere?
+
+La superclase es la clase principal de la cual otras clases heredan.
+
+En este ejemplo:
+
+```python
+class Personaje:
+```
+
+`Personaje` es la superclase porque `Guerrero` y `Mago` heredan de ella.
+
+---
+
+### ¿Para qué se usa la instrucción pass en Python?
+
+La instrucción `pass` se usa para dejar una clase, función o bloque vacío sin producir error.
+
+```python
+class Arquero(Personaje):
+    pass
+```
+
+Sirve como marcador cuando todavía no se quiere escribir código dentro de la clase.
+
+---
+
+### ¿Qué es la función integrada super() y para qué se usa?
+
+`super()` es una función que nos deja acceder a métodos de la clase padre desde una clase hija.
+
+```python
+super().__init__(nombre, fuerza, inteligencia, defensa, vida)
+```
+
+Se usa para reutilizar código y evitar repetir instrucciones.
+
+Beneficios:
+- evita duplicar código
+- mejora la organización
+- facilita el mantenimiento del programa
+
+---
+
+### ¿En el video se menciona la herencia múltiple a qué se refiere?
+
+La herencia múltiple ocurre cuando una clase hereda de varias clases al mismo tiempo.
+
+```python
+class PersonajeMagico(Guerrero, Mago):
+    pass
+```
+
+Esto permite combinar características de varias clases en una sola.
+
+---
+
+### ¿Cuál es el beneficio de aplicar herencia en POO?
+
+La herencia ayuda a reutilizar código y crear programas más ordenados.
+
+Sus beneficios principales son:
+- permite compartir métodos entre clases
+- reduce código repetido
+- facilita crear nuevas clases especializadas
+- mejora la organización del programa
+
+---
+
+### Nuevo personaje agregado
+
+Se agregó un nuevo personaje para practicar herencia.
+
+```python
+Miyu = Guerrero("Miyu", 18, 12, 9, 120, 6)
+Miyu.atributos()
+```
+
+Este personaje tiene valores diferentes para demostrar cómo crear nuevos objetos a partir de una clase hija.
+
 ## Archivo del código fuente
 
 [personaje.py](personaje.py) <br>
-[personaje_encapsulado.py](personaje_encapsulado.py)
+[personaje_encapsulado.py](personaje_encapsulado.py) <br>
+[personaje_herencia.py](personaje_herencia.py)
