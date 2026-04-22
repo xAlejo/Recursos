@@ -80,7 +80,7 @@ Aquí se crean dos objetos de la clase `Personaje`.
 
 ---
 
-# Encapsulación
+## Encapsulación
 
 La encapsulación en Python consiste en proteger los atributos de una clase para evitar que sean modificados desde fuera del objeto.  
 Para encapsular un atributo se colocan dos guiones bajos (`__`) antes del nombre del atributo.
@@ -157,7 +157,7 @@ mi_personaje._Personaje__fuerza = -5
 
 Esto rompe la encapsulación porque modifica el atributo privado desde fuera de la clase.
 
-# Herencia
+## Herencia
 
 La herencia permite crear nuevas clases a partir de una clase existente.  
 Esto significa que una clase hija puede reutilizar atributos y métodos de una clase padre sin escribir nuevamente el mismo código.
@@ -259,7 +259,7 @@ Miyu.atributos()
 
 Este personaje tiene valores diferentes para demostrar cómo crear nuevos objetos a partir de una clase hija.
 
-# Polimorfismo
+## Polimorfismo
 
 Permite que diferentes clases utilicen un mismo método con comportamientos distintos.
 Esto significa que varios objetos pueden responder al mismo mensaje de manera diferente según su tipo.
@@ -333,9 +333,30 @@ desplazamiento(Barco())
 La función `desplazamiento()` usa el mismo método `mover()`,  
 pero cada objeto realiza una acción diferente según su clase.
 
+## Proyecto Final: Mascota
+
+La clase `Mascota` representa una mascota virtual que puede realizar diferentes acciones como jugar, comer y dormir.
+
+Elegí esta clase porque permite aplicar varios conceptos de programación orientada a objetos:
+- atributos para guardar información
+- métodos para modificar el estado del objeto
+- encapsulación para proteger la energía
+
+El atributo `__energia` fue encapsulado para evitar modificaciones directas desde fuera de la clase.
+
+Los métodos permiten:
+- disminuir energía al jugar
+- reducir hambre al comer
+- aumentar energía al dormir
+
+### Código del proyecto
+
+[Ver código de práctica final](mascota_practica.py)
+
 ## Archivo del código fuente
 
 [personaje.py](personaje.py) <br>
 [personaje_encapsulado.py](personaje_encapsulado.py) <br>
 [personaje_herencia.py](personaje_herencia.py) <br>
-[personaje_polimorfismo.py](personaje_polimorfismo.py)
+[personaje_polimorfismo.py](personaje_polimorfismo.py) <br>
+[mascota_practica.py](mascota_practica.py)
