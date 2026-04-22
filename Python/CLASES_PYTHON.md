@@ -157,7 +157,7 @@ mi_personaje._Personaje__fuerza = -5
 
 Esto rompe la encapsulación porque modifica el atributo privado desde fuera de la clase.
 
-## Herencia
+# Herencia
 
 La herencia permite crear nuevas clases a partir de una clase existente.  
 Esto significa que una clase hija puede reutilizar atributos y métodos de una clase padre sin escribir nuevamente el mismo código.
@@ -259,8 +259,83 @@ Miyu.atributos()
 
 Este personaje tiene valores diferentes para demostrar cómo crear nuevos objetos a partir de una clase hija.
 
+# Polimorfismo
+
+Permite que diferentes clases utilicen un mismo método con comportamientos distintos.
+Esto significa que varios objetos pueden responder al mismo mensaje de manera diferente según su tipo.
+
+---
+
+### ¿Para qué se usa el polimorfismo?
+
+El polimorfismo se usa para escribir código más flexible y reutilizable.  
+Permite trabajar con distintos objetos sin cambiar la función que los utiliza.  
+Cada objeto ejecuta su propia versión del método.
+
+Ejemplo:
+
+```python
+def definicion_bebida(bebida):
+    bebida.que_soy()
+```
+
+La misma función puede recibir diferentes objetos:
+
+```python
+definicion_bebida(Cafe())
+definicion_bebida(Te())
+```
+
+Cada objeto responde de forma distinta aunque se llame al mismo método.
+
+---
+
+### ¿Qué ocurre en el método daño(self, enemigo) si la fuerza es menor a la defensa?
+
+Si la fuerza es menor que la defensa, el resultado del daño puede ser negativo.  
+Eso provocaría que el enemigo recupere vida en lugar de perderla.  
+Para evitarlo se debe comprobar que el daño mínimo sea cero.
+
+Ejemplo corregido:
+
+```python
+def daño(self, enemigo):
+    daño = self.fuerza - enemigo.defensa
+    if daño < 0:
+        daño = 0
+    return daño
+```
+
+Así nunca se producirá daño negativo.
+
+---
+
+### Ejemplo de polimorfismo con otro objeto
+
+En este ejemplo se usa el polimorfismo con vehículos.
+
+```python
+class Auto:
+    def mover(self):
+        print("El auto avanza por la carretera")
+
+class Barco:
+    def mover(self):
+        print("El barco navega por el agua")
+
+def desplazamiento(vehiculo):
+    vehiculo.mover()
+
+desplazamiento(Auto())
+desplazamiento(Barco())
+```
+
+La función `desplazamiento()` usa el mismo método `mover()`,  
+pero cada objeto realiza una acción diferente según su clase.
+
 ## Archivo del código fuente
 
 [personaje.py](personaje.py) <br>
 [personaje_encapsulado.py](personaje_encapsulado.py) <br>
-[personaje_herencia.py](personaje_herencia.py)
+[personaje_herencia.py](personaje_herencia.py) <br>
+[personaje_polimorfismo.py](personaje_polimorfismo.py)
