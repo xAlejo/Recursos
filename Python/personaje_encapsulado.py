@@ -43,7 +43,7 @@ class Personaje:
     
     def set_fuerza(self, fuerza):
         if fuerza < 0:
-            print("Error, has introucido un valor negativo")
+            print("Error, has introducido un valor negativo")
         else:
             self.__fuerza = fuerza
     
