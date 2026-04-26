@@ -12,3 +12,5 @@
 - [poo_gato.py](poo_gato.py)
 - [personaje](personaje.py)
 - [personaje_encapsulado](personaje_encapsulado.py)
+- [personaje_herencia](personaje_herencia.py)
+- [personaje_polimorfismo](personaje_polimorfismo.py)
