@@ -3,4 +3,4 @@
 ![paso1](https://github.com/xAlejo/Recursos/blob/main/paso%201.1%20buscar.png)
 # Paso 2: Buscar en extensiones "Mermaid Support"
 ## se busca en el navegador la extension y se selecciona la primera
-![paso2](https://github.com/xAlejo/Recursos/blob/main/paso%201.1%20buscar.png)
+![paso2](https://github.com/xAlejo/Recursos/blob/main/paso%201%20instalacion.png?raw=true)
