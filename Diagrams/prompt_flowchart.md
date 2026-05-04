@@ -1,6 +1,6 @@
 ## Prompt Utizado para la generación del ejemplo de flujo
 #intrucciones
-* Necesito que me ayudes a crear un Diagrama de Flujo (Flowchart), de mi trabajo de clase de personaje, a continuacion te dejare copiado mi codigo de personaje (Mascota) <br>
+* Necesito que me ayudes a crear un Diagrama de Flujo (Flowchart), de mi trabajo de clase de personaje, a continuacion te dejare copiado mi codigo de personaje (Mascota), Pero necesito que el diagrama sea simple ya que soy un estudiante de fundamentos de programacion y lo necesito para mi aprendizaje. <br>
 class Mascota:
 
     def __init__(self, nombre, energia, hambre):
