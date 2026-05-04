@@ -1,4 +1,4 @@
-## PROMPT ECHO PARA LA CREACION DE DIAGRAMA CON MERMAID EN CHAT GPT
+## Prompt Utizado para la generación del ejemplo de flujo
 #intrucciones
 * Necesito que me ayudes a crear un Diagrama de Flujo (Flowchart), de mi trabajo de clase de personaje, a continuacion te dejare copiado mi codigo de personaje (Mascota) <br>
 class Mascota:
