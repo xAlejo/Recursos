@@ -95,3 +95,10 @@ Los módulos se usan para organizar el código en diferentes partes, facilitando
 ¿Qué es el comando javac y cuál es su función?
 
 El comando javac se utiliza para compilar archivos de Java. Su función es transformar el código fuente (.java) en código ejecutable (.class) que la máquina virtual de Java puede interpretar.
+
+# Mascota.java y Main.java
+
+* Para este ejercicio creé una clase Mascota con atributos y métodos similares a los usados en Python, aplicando conceptos de POO.
+* Además, utilicé una clase principal (Main) para ejecutar el programa y crear instancias de la clase.
+* Esto permite entender cómo se organizan las clases en Java y cómo interactúan entre sí dentro de un programa.
+
