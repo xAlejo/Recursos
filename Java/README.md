@@ -4,7 +4,6 @@
 
 ## Archivos
 
-- [Hola Mundo](./HolaMundo.java)
 - [Clase Mascota](./Mascota.java)
 - [Clase Principal (Main)](./Main.java)
 - [Sintaxis de Java](./SINTAXIS_JAVA.md)
