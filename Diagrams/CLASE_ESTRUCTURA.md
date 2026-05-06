@@ -1,4 +1,4 @@
-
+```mermaid
 classDiagram
 class Mascota {
     +str nombre
@@ -11,3 +11,4 @@ class Mascota {
     +set_energia(nueva_energia : int) void
     +mostrar_estado() void
 }
+```
