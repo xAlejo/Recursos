@@ -14,6 +14,15 @@ class Mascota {
     +mostrar_estado() void
 }
 ```
+# ¿Qué entendí sobre las relaciones?
+
+* Entendí que las relaciones en UML sirven para mostrar cómo las clases se conectan o dependen entre sí dentro de un programa.
+* Estas relaciones permiten representar si una clase hereda de otra, si contiene objetos de otra clase o si simplemente interactúan entre ellas.
+* También aprendí que existen distintos tipos, como la herencia, composición, agregación y asociación, cada una con un propósito diferente.
+* Las relaciones son importantes porque ayudan a entender mejor la estructura del sistema y cómo se organizan las clases.
+
+- En resumen, permiten visualizar cómo se construye un programa más complejo a partir de varias clases conectadas.
+
 # ¿Mi clase tiene relaciones con otras clases? ¿Por qué?
 
 * Mi clase Mascota es independiente y no tiene relaciones con otras clases, ya que:
