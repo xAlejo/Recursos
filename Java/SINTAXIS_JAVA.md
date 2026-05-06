@@ -86,3 +86,12 @@ System.out.println(edades.get("Alejo"));
 
 Comentario: Un objeto es una instancia de una clase que contiene atributos y métodos.
 
+# Módulos y Clases
+
+¿Para qué se usan los módulos?
+
+Los módulos se usan para organizar el código en diferentes partes, facilitando la reutilización y el orden dentro de un proyecto.
+
+¿Qué es el comando javac y cuál es su función?
+
+El comando javac se utiliza para compilar archivos de Java. Su función es transformar el código fuente (.java) en código ejecutable (.class) que la máquina virtual de Java puede interpretar.
