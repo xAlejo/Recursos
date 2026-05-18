@@ -119,59 +119,44 @@ Las entidades fueron:
 
 ---
 
-# Cardinalidad
+# Corrección de Cardinalidad
 
-La cardinalidad indica cuántos registros de una tabla se relacionan con registros de otra tabla.
+## 1. Detección de Error
 
----
+Una tabla intermedia como MASCOTA_TUTOR se utiliza realmente para relaciones Muchos a Muchos (N:M). Esto ocurre porque una mascota puede tener varios tutores y un tutor puede tener varias mascotas.
 
-# Caso A - Relación 1 a 1
+En bases de datos relacionales no se puede crear directamente una relación N:M, por eso se utiliza una tabla intermedia que divide la relación en dos relaciones 1:N.
 
-En una veterinaria solamente se permite un dueño por mascota.
-
-Entonces:
-
-- Una mascota tiene un solo dueño
-- Un dueño tiene una sola mascota
-
-La relación sería:
-
-1 : 1
-
-o también:
-
-(1..1)
+Si en la pizarra se indicó una relación N:1, entonces crear MASCOTA_TUTOR sería una contradicción, ya que para N:1 no se necesita tabla intermedia.
 
 ---
 
-# Caso B - Relación Muchos a Muchos
+## 2. Contexto de Negocio
 
-En un hotel para mascotas, varias personas pueden retirar a una mascota y además un tutor puede tener varias mascotas.
+### Caso A: Clínica Veterinaria Hogar
 
-Entonces:
+Una mascota solo puede tener un dueño responsable.
 
-- Una mascota puede tener varios tutores
-- Un tutor puede tener varias mascotas
+Cardinalidad:
 
-La relación sería:
+- Un tutor → muchas mascotas
+- Una mascota → un tutor
 
-N : M
+Relación:
+
+1:N
 
 ---
 
-# Tabla Intermedia
+### Caso B: Hotel de Mascotas Premium
 
-Para resolver relaciones Muchos a Muchos se utiliza una tabla intermedia.
+Una mascota puede ser retirada por varios tutores y un tutor puede tener varias mascotas.
 
-También se conoce como:
+Cardinalidad:
 
-- Tabla asociativa
-- Tabla pivote
-- Junction table
+N:M
 
-En clases se creó la tabla:
-
-Mascota_Tutor
+En este caso sí es necesario usar una tabla intermedia como MASCOTA_TUTOR.
 
 porque los motores de bases de datos relacionales no pueden manejar directamente una relación Muchos a Muchos.
 
