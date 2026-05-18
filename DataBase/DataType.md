@@ -14,7 +14,7 @@
 
 * Análisis de caso práctico <br>
 Si tuvieras que diseñar una base de datos para almacenar matrículas vehiculares que siempre tienen un formato estándar de 7 caracteres, ¿qué tipo de dato elegirías y por qué?
-- Usaria CHAR ya que todas las matricular tendrian el mismo tamaño y este sera fijo y que la busqueda de los datos suele ser mas rapida y eficiente para datos.
+- Usaria CHAR ya que todas las matricular tendrian el mismo tamaño y este sera fijo y que la busqueda de los datos suele ser mas rapida y eficiente para datos constantes.
 
 * Gestión de almacenamiento <br>
  ¿Qué riesgo existe al definir una longitud de caracteres excesivamente grande en un campo VARCHAR si los datos reales son pequeños?
