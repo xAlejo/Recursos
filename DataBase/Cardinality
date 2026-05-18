@@ -1,1 +1,126 @@
+# Resumen Video Cardinalidad
 
+## 1. Notación Clásica
+
+### Uno a Uno (1:1)
+
+Cada elemento de una entidad se relaciona únicamente con un elemento de otra entidad.
+
+Ejemplos:
+
+- Vehículo y número de bastidor
+- Cuenta bancaria e IBAN
+- Persona y DNI
+
+---
+
+### Uno a Muchos (1:N)
+
+Un elemento de una entidad puede relacionarse con varios elementos de otra, pero no al revés.
+
+Ejemplos:
+
+- Cliente y pedidos
+- Libro y capítulos
+- Cuenta bancaria y movimientos
+- Paciente y citas médicas
+
+---
+
+### Muchos a Muchos (N:M)
+
+Varios elementos de una entidad se relacionan con varios elementos de otra.
+
+Ejemplos:
+
+- Persona e idiomas
+- Actor y películas
+- Alumno y asignaturas
+- Pedido y transportista
+
+---
+
+# 2. Notación de Mínimos y Máximos
+
+Esta notación indica la participación mínima y máxima en una relación.
+
+---
+
+### 0..1
+
+La relación puede no existir o ser única.
+
+Ejemplo:
+
+- Persona y DNI en menores de edad
+
+---
+
+### 0..N
+
+Permite desde cero hasta muchas relaciones.
+
+Ejemplo:
+
+- Persona y coches poseídos
+
+---
+
+### 1..1
+
+La relación es obligatoria y única.
+
+Ejemplo:
+
+- Vehículo y número de bastidor
+
+---
+
+### 1..N
+
+La relación exige al menos una relación, pero puede tener muchas.
+
+Ejemplos:
+
+- Profesor y asignaturas
+- Madre e hijo
+
+---
+
+# Conclusión
+
+La cardinalidad depende del contexto del negocio y de las reglas definidas por la organización.
+
+# Resumen del profesor:
+
+1. Notación Clásica (1:1, 1:N, N:N)
+
+
+
+Uno a Uno (1:1): Cada elemento de una entidad se relaciona únicamente con un elemento de otra (1:03 - 1:10). Ejemplos: Vehículo y número de bastidor, cuenta bancaria e identificador (IBAN), persona y DNI (1:31 - 2:44).
+
+
+Uno a Muchos (1:N): Un elemento de una entidad se relaciona con varios de otra, pero no a la inversa (1:10 - 1:21). Ejemplos: Cliente y pedidos, libro y capítulos, cuenta bancaria y movimientos, paciente y citas médicas (3:32 - 4:48).
+
+
+Muchos a Muchos (N:M): Varios elementos de una entidad se relacionan con varios de otra (1:22 - 1:28). Ejemplos: Persona e idiomas, actor y películas, alumno y asignatura, pedido y transportista (4:50 - 7:35).
+
+
+2. Notación de Mínimos y Máximos (0..1, 0..N, 1..1, 1..N)
+
+Esta notación especifica el rango de participación obligatoria o mínima (12:02 - 12:28):
+
+
+
+0 a 1: Permite que no exista relación (0) o que sea única (1). Ejemplo: Persona y DNI (en menores de edad) (13:44 - 14:14).
+
+
+0 a N: Permite desde cero hasta múltiples relaciones. Ejemplo: Persona y coches (poseídos) (16:51 - 17:19).
+
+
+1 a 1: Obligatoria y única. Ejemplo: Vehículo y número de bastidor (13:18 - 13:44).
+
+# ejemplos (Fotos)
+
+
+1 a N: Obligatoria al menos una, pero puede tener muchas. Ejemplo: Profesor y asignatura (14:15 - 14:32), madre e hijo (17:21 - 17:41).
