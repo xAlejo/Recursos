@@ -178,6 +178,4 @@ porque los motores de bases de datos relacionales no pueden manejar directamente
 Por eso se transforma en dos relaciones Uno a Muchos.
 
 ---
-
-
-![Apuntes](./foto-clase.png)
+puntes](./foto-clase.png
