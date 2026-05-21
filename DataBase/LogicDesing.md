@@ -1,6 +1,7 @@
 # Base de Datos
 Tablas: <br>
-![Visual Studio Code](https://github.com/xAlejo/Recursos/blob/main/Imagenes/20260521_152654.jpg?raw=true)
+![tabla mascota](https://github.com/xAlejo/Recursos/blob/main/Imagenes/20260521_152654.jpg?raw=true)
+![tabla mascota 2](https://github.com/xAlejo/Recursos/blob/main/Imagenes/20260521_153112.jpg?raw=true)
 # ¿Qué es una Base de Datos?
 
 Una base de datos es un conjunto organizado de información almacenada de forma estructurada en un sistema, para que pueda ser fácilmente consultada, modificada y gestionada.
