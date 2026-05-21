@@ -92,4 +92,5 @@ Ejemplos:
 La cardinalidad depende del contexto del negocio y de las reglas definidas por la organización.
 
 
-# ejemplos (Fotos)
+# 7 Ejemplos (Fotos)
+![ejemplos1](https://github.com/xAlejo/Recursos/blob/main/Imagenes/20260521_165851.jpg?raw=true)
