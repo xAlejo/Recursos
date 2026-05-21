@@ -20,6 +20,9 @@
 Si tuvieras que diseñar una base de datos para almacenar matrículas vehiculares que siempre tienen un formato estándar de 7 caracteres, ¿qué tipo de dato elegirías y por qué?
 - Usaria CHAR ya que todas las matricular tendrian el mismo tamaño y este sera fijo y que la busqueda de los datos suele ser mas rapida y eficiente para datos constantes.
 
+![Text](https://github.com/xAlejo/Recursos/blob/main/Imagenes/Captura%20de%20pantalla%202026-05-21%20160132.png?raw=true)
+
+
 * Gestión de almacenamiento <br>
  ¿Qué riesgo existe al definir una longitud de caracteres excesivamente grande en un campo VARCHAR si los datos reales son pequeños?
 - Si un VARCHAR tiene un tamaño demasiado grande, la base de datos puede volverse más lenta y usar recursos innecesarios, aunque los datos guardados sean pequeños. Por eso es mejor usar un tamaño adecuado
