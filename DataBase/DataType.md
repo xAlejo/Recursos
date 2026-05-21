@@ -10,6 +10,8 @@
 ¿En qué se diferencia principalmente VARCHAR de CHAR y por qué se considera más eficiente para almacenar datos como nombres o direcciones?
 - Permite almacenar cadenas de longitud variable y solo ocupa el espacio necesario y esto permite poder poner direcciones, nombres y datos sin preocuparnos del espacio o tamaño que tiene o va a ocupar
 
+![Varchar](https://github.com/xAlejo/Recursos/blob/main/Imagenes/2.png?raw=true)
+
 * TEXT <br>
 ¿Para qué tipo de escenarios está diseñado el tipo de dato TEXT y cuál es su ventaja respecto a la limitación de caracteres en comparación con los otros tipos vistos?
 - esta diseñada para almacenar grandes cantidades de texto o cadenas muy largas, y su ventaja es que no tiene limitacion ya que permite almacenar mayor cantidad de caracteres que CHAR Y VARCHAR.
