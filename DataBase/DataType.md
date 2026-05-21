@@ -4,6 +4,8 @@
 ¿Cuál es la característica principal del tipo de dato CHAR en cuanto a su almacenamiento y qué sucede si el contenido ingresado es menor a la longitud definida?
 - se encarga de almacenar datos con una longitud fija, osea si se suben datos a la red esta siempre va a ocupar el mismo espacio y si el contenido ingresado es menor a la longitud definida la misma base de datos va a rellenar los espacios faltantes con espacios en blanco hasta rellenar el espacio fijo
 
+![char](https://github.com/xAlejo/Recursos/blob/main/Imagenes/1.png?raw=true)
+
 * VARCHAR <br>
 ¿En qué se diferencia principalmente VARCHAR de CHAR y por qué se considera más eficiente para almacenar datos como nombres o direcciones?
 - Permite almacenar cadenas de longitud variable y solo ocupa el espacio necesario y esto permite poder poner direcciones, nombres y datos sin preocuparnos del espacio o tamaño que tiene o va a ocupar
