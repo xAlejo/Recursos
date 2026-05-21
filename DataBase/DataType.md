@@ -25,3 +25,5 @@ Si tuvieras que diseñar una base de datos para almacenar matrículas vehiculare
 * Gestión de almacenamiento <br>
  ¿Qué riesgo existe al definir una longitud de caracteres excesivamente grande en un campo VARCHAR si los datos reales son pequeños?
 - Si un VARCHAR tiene un tamaño demasiado grande, la base de datos puede volverse más lenta y usar recursos innecesarios, aunque los datos guardados sean pequeños. Por eso es mejor usar un tamaño adecuado
+
+![datogeneral](https://github.com/xAlejo/Recursos/blob/main/Imagenes/Captura%20de%20pantalla%202026-05-21%20160739.png?raw=true)
