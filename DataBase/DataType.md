@@ -16,12 +16,11 @@
 ¿Para qué tipo de escenarios está diseñado el tipo de dato TEXT y cuál es su ventaja respecto a la limitación de caracteres en comparación con los otros tipos vistos?
 - esta diseñada para almacenar grandes cantidades de texto o cadenas muy largas, y su ventaja es que no tiene limitacion ya que permite almacenar mayor cantidad de caracteres que CHAR Y VARCHAR.
 
+![Text](https://github.com/xAlejo/Recursos/blob/main/Imagenes/Captura%20de%20pantalla%202026-05-21%20160132.png?raw=true)
+
 * Análisis de caso práctico <br>
 Si tuvieras que diseñar una base de datos para almacenar matrículas vehiculares que siempre tienen un formato estándar de 7 caracteres, ¿qué tipo de dato elegirías y por qué?
 - Usaria CHAR ya que todas las matricular tendrian el mismo tamaño y este sera fijo y que la busqueda de los datos suele ser mas rapida y eficiente para datos constantes.
-
-![Text](https://github.com/xAlejo/Recursos/blob/main/Imagenes/Captura%20de%20pantalla%202026-05-21%20160132.png?raw=true)
-
 
 * Gestión de almacenamiento <br>
  ¿Qué riesgo existe al definir una longitud de caracteres excesivamente grande en un campo VARCHAR si los datos reales son pequeños?
