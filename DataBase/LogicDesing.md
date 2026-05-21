@@ -1,5 +1,5 @@
 # Base de Datos
-Tablas:
+Tablas: <br>
 ![Visual Studio Code](https://github.com/xAlejo/Recursos/blob/main/Imagenes/20260521_152654.jpg?raw=true)
 # ¿Qué es una Base de Datos?
 
