@@ -14,7 +14,7 @@ ESTILOS DE TEXTO <br>
 
 #**ENLACE DE IMAGEN** <br>
 **Visual Studio Code** <br> <br>
-![Visual Studio Code](https://github.com/xAlejo/Recursos/blob/a221e9843b86d814c2c3d35fe42cb2f01bb14d0c/Visual_Studio_Code_1.35_icon.svg.png)
+![Visual Studio Code](https://github.com/xAlejo/Recursos/blob/main/Imagenes/Visual_Studio_Code_1.35_icon.svg.png)
 
 # Tips de ayuda <br>
 
