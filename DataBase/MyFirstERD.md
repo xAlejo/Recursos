@@ -4,3 +4,4 @@
 
 * A continuacion se hace muestra de la creacion y modificacion del trabajo solicitado.
 
+## Foto del ejercicio como boceto.
