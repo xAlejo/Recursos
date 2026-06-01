@@ -7,7 +7,7 @@
 ## Foto del ejercicio como boceto.
 ![trabajo](https://github.com/xAlejo/Recursos/blob/main/Imagenes/IMG-20260529-WA0097.jpg?raw=true)
 
-### Respuestas De Las Preguntas Realizadas
+## Respuestas De Las Preguntas Realizadas
 1- ¿Que formas normales uso y por que?
 
 Formas normales que usamos: 1FN, 2FN y 3FN.
