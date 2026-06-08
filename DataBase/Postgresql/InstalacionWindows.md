@@ -15,3 +15,4 @@
 ![Paso3](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_3.png?raw=true.png)
 
 * asi deberia verse la terminal con la ruta del archivo.
+![paso4](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_4.png?raw=true.png)
