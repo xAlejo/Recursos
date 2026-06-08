@@ -19,4 +19,6 @@
 
 ## Paso 4: Creacion del Clúster de datos
 * Con la termianl abierta ejecutamos el siguente comando:
-``` .\bin\initdb.exe -D DATA_ALEJO -U postgres -W -E UTF8 ```
+```bash
+.\bin\initdb.exe -D data -U postgres -W -E UTF8
+```
