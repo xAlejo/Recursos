@@ -72,3 +72,13 @@ o
 * Hacemos click en el icono del enchufe para agregar una conexion a un servidor ( esperar a que se abra la pestaña para registrar el nuevo servidor).
 
 ![paso11](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_11.png?raw=true.png)
+
+8. formulario
+* En esta seccion rellenaremos el formulario con los siguentes datos y le damos al boton OK:
+- Name: mi base de datos
+- Host: localhost
+- Port: 5432
+- Maintenance DB: postgres
+- Username: postgres
+- Password: 123
+
