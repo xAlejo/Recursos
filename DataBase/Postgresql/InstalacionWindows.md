@@ -16,3 +16,7 @@
 
 * asi deberia verse la terminal con la ruta del archivo.
 ![paso4](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_4.png?raw=true.png)
+
+## Paso 4: Creacion del Clúster de datos
+* Con la termianl abierta ejecutamos el siguente comando:
+.\bin\initdb.exe -D DATA_ALEJO -U postgres -W -E UTF8
