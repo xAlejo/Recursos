@@ -26,7 +26,7 @@
 ```
 * Este comando lo utilizamos para la creacion de la estructura de carpetas y archivos donde el servidor almacenará las bases de datos, usuarios, configuraciones y demás información necesaria para funcionar.
 
-![paso4](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_5.png?raw=true.png)
+![paso5](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_5.png?raw=true.png)
 
 2. Iniciar el servidor:
 ```powershell
@@ -36,6 +36,8 @@
 ```powershell
 .\bin\pg_isready.exe
 ```
+![paso6](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_6.png?raw=true.png)
+
 4. Conectarse:
 ```powershell
 .\bin\psql.exe -U postgres
