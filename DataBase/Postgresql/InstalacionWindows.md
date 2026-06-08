@@ -13,3 +13,5 @@
 * apretamos la barra de direcciones y escribimos powershell, seguido apretamos enter para que se ejecute la terminal
 
 ![Paso3](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_3.png?raw=true.png)
+
+* asi deberia verse la terminal con la ruta del archivo.
