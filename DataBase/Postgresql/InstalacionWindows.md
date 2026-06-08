@@ -66,3 +66,7 @@ o
 
 6. Pgadmin3 abierto
 
+![paso10](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_10.png?raw=true.png)
+
+7. Conexion
+* Hacemos click en el icono del enchufe para agregar una conexion a un servidor ( esperar a que se abra la pestaña para registrar el nuevo servidor).
