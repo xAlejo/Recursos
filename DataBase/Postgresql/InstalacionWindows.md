@@ -70,3 +70,5 @@ o
 
 7. Conexion
 * Hacemos click en el icono del enchufe para agregar una conexion a un servidor ( esperar a que se abra la pestaña para registrar el nuevo servidor).
+
+![paso11](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_11.png?raw=true.png)
