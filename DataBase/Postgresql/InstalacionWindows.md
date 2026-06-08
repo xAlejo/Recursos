@@ -44,3 +44,7 @@
 ```powershell
 .\bin\psql.exe -U postgres
 ```
+o
+```powershell
+.\bin\psql.exe -h localhost -U postgres
+```
