@@ -20,7 +20,7 @@
 ## Paso 4: inicar postgres
 
 1. Crear el clúster de datos
-* Con la termianl abierta ejecutamos el siguente comando:
+* Con la termianl abierta ejecutamos el siguente comando ( cambiar data por DATA_SU_NOMBRE en el comando de incio)
 ```powershell
 .\bin\initdb.exe -D data -U postgres -W -E UTF8
 ```
