@@ -26,7 +26,7 @@
 ```
 * Este comando lo utilizamos para la creacion de la estructura de carpetas y archivos donde el servidor almacenará las bases de datos, usuarios, configuraciones y demás información necesaria para funcionar.
 
-![paso5](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_5.png?raw=true.png)
+![paso5](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/Paso_05.png?raw=true.png)
 
 2. Iniciar el servidor:
 ```powershell
