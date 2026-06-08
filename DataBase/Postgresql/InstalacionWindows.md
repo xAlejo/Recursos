@@ -11,3 +11,5 @@
 
 ## Paso 3: Apertura de PowerShell en la carpeta pgsql
 * apretamos la tecla windows o seleccionamos el icono de windows y buscamos PowerShell o Terminal y lo iniciamos.
+
+![Paso3](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_3.png?raw=true.png)
