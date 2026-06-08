@@ -82,3 +82,6 @@ o
 - Username: postgres
 - Password: 123
 
+![paso11](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_12.png?raw=true.png)
+
+
