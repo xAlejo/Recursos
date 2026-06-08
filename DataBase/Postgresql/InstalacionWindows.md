@@ -60,4 +60,4 @@ o
 
 ![paso_8](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_8.png?raw=true.png)
 
-5.
+5. Ejecutar pg admin
