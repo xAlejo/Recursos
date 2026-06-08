@@ -7,4 +7,4 @@
 - [MyFirstERD](MyFirstERD.md)
 
 # PostgreSQL en Windows
-- [Postgresql](Postgresql.md)
+- [Postgresql](Postgresql)
