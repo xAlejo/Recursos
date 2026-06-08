@@ -58,4 +58,6 @@ o
 .\bin\postgres.exe --version
 ```
 
+![paso_8](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_8.png?raw=true.png)
+
 5.
