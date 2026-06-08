@@ -19,7 +19,7 @@
 
 ## Paso 4: inicar postgres
 
-1. Crear el clúster de datos
+# 1. Crear el clúster de datos
 * Con la termianl abierta ejecutamos el siguente comando ( cambiar data por DATA_SU_NOMBRE en el comando de incio)
 ```powershell
 .\bin\initdb.exe -D data -U postgres -W -E UTF8
@@ -28,19 +28,19 @@
 
 ![paso5](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/Paso_05.png?raw=true.png)
 
-2. Iniciar el servidor:
+# 2. Iniciar el servidor:
 ```powershell
 .\bin\pg_ctl.exe -D data -l logfile start
 ```
-3. Verificar que está funcionando:
+# 3. Verificar que está funcionando:
 ```powershell
 .\bin\pg_isready.exe
 ```
-* Como deberia verse:
+* Como deberia verse 2 y 3:
 
 ![paso6](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_6.png?raw=true.png)
 
-4. Conectarse:
+# 4. Conectarse:
 ```powershell
 .\bin\psql.exe -U postgres
 ```
@@ -52,7 +52,7 @@ o
 
 ![paso7](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_7.png?raw=true.png)
 
-4.1 verificamos la version
+# 4.1 verificamos la version
 * para salir del comando anterior ingresamos el comando \q
 ```powershell
 .\bin\postgres.exe --version
@@ -60,20 +60,20 @@ o
 
 ![paso_8](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_8.png?raw=true.png)
 
-5. Ejecutar pg admin
+# 5. Ejecutar pg admin
 
 ![paso9](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_9.png?raw=true.png)
 
-6. Pgadmin3 abierto
+# 6. Pgadmin3 abierto
 
 ![paso10](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_10.png?raw=true.png)
 
-7. Conexion
+# 7. Conexion
 * Hacemos click en el icono del enchufe para agregar una conexion a un servidor ( esperar a que se abra la pestaña para registrar el nuevo servidor).
 
 ![paso11](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_11.png?raw=true.png)
 
-8. formulario
+# 8. formulario
 * En esta seccion rellenaremos el formulario con los siguentes datos y le damos al boton OK:
 - Name: mi base de datos
 - Host: localhost
@@ -84,17 +84,17 @@ o
 
 ![paso12](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_12.png?raw=true.png)
 
-9. Advertencia
+# 9. Advertencia
 * A continuación, aparecerá una ventana informando que la contraseña del servidor puede guardarse en el equipo para futuras conexiones y para continuar con la configuración de pgAdmin debemos darle al boton de OK.
 
 ![paso13](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_13.png?raw=true.png)
 
-10. Error de servidor (Extra)
+# 10. Error de servidor (Extra)
 * Si se presenta el mensaje de la imagen es porque cerraste la terminal o PowerShell, sin la terminal abierta no existe activacion y conexion, por ende para evitar este paso, vuelve a hacer todo el proceso de activacion en la terminal y vuelves a abrir el programa sin cerrar nada de lo anterior.
 
 ![pasoextra](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/extra.png?raw=true.png)
 
-11. finalizacion
+# 11. finalizacion
 * Si todo esta bien deberia mostrarse de la siguente forma el servidor
 
 ![paso14](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_14_final.png?raw=true.png)
