@@ -82,7 +82,9 @@ o
 - Username: postgres
 - Password: 123
 
-![paso11](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_12.png?raw=true.png)
+![paso12](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_12.png?raw=true.png)
 
 9. advertencia
 * A continuación, aparecerá una ventana informando que la contraseña del servidor puede guardarse en el equipo para futuras conexiones y para continuar con la configuración de pgAdmin debemos darle al boton de OK.
+
+![paso13](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_13.png?raw=true.png)
