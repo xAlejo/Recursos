@@ -8,3 +8,6 @@
 * Una vez descargado el archivo nos vamos a la ubicacion de descarga y seguimos los siguentes pasos: click derecho en el archivo, seleccionar extrar todo, esperar a que termine la extraccion, abrimos el archivo.
 
 ![paso2](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_2.png?raw=true.png)
+
+## Paso 3: Apertura de PowerShell en la carpeta pgsql
+* apretamos la tecla windows o seleccionamos el icono de windows y buscamos PowerShell o Terminal y lo iniciamos.
