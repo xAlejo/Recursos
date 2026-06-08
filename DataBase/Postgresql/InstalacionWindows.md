@@ -17,7 +17,9 @@
 * asi deberia verse la terminal con la ruta del archivo.
 ![paso4](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_4.png?raw=true.png)
 
-## Paso 4: Creacion del Clúster de datos
+## Paso 4: inicar postgres
+
+1. Crear el clúster de datos
 * Con la termianl abierta ejecutamos el siguente comando:
 ```powershell
 .\bin\initdb.exe -D data -U postgres -W -E UTF8
@@ -25,3 +27,16 @@
 * Este comando lo utilizamos para la creacion de la estructura de carpetas y archivos donde el servidor almacenará las bases de datos, usuarios, configuraciones y demás información necesaria para funcionar.
 
 ![paso4](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_5.png?raw=true.png)
+
+2. Iniciar el servidor:
+```powershell
+.\bin\pg_ctl.exe -D data -l logfile start
+```
+3. Verificar que está funcionando:
+```powershell
+.\bin\pg_isready.exe
+```
+4. Conectarse:
+```powershell
+.\bin\psql.exe -U postgres
+```
