@@ -61,4 +61,8 @@ o
 ![paso_8](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_8.png?raw=true.png)
 
 5. Ejecutar pg admin
+
 ![paso9](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_9.png?raw=true.png)
+
+6. Pgadmin3 abierto
+
