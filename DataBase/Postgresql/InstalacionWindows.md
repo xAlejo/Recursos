@@ -48,3 +48,14 @@ o
 ```powershell
 .\bin\psql.exe -h localhost -U postgres
 ```
+* si sale de la siguente forma es porque ya estamos conectados correctamente al servidor PostgreSQL
+
+![paso7](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_7.png?raw=true.png)
+
+4.1 verificamos la version
+* para salir del comando anterior ingresamos el comando \q
+```powershell
+.\bin\postgres.exe --version
+```
+
+5.
