@@ -36,7 +36,7 @@
 ```powershell
 .\bin\pg_isready.exe
 ```
-* Como deberia verse 2 y 3:
+* **Como deberia verse el punto 2 y 3:**
 
 ![paso6](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_6.png?raw=true.png)
 
