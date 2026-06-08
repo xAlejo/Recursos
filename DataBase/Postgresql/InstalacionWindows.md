@@ -89,7 +89,13 @@ o
 
 ![paso13](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_13.png?raw=true.png)
 
-10. finalizacion
+10. Error de servidor (Extra)
+* Si se presenta el mensaje de la imagen es porque cerraste la terminal o PowerShell, sin la terminal abierta no existe activacion y conexion, por ende para evitar este paso, vuelve a hacer todo el proceso de activacion en la terminal y vuelves a abrir el programa sin cerrar nada de lo anterior.
+
+![pasoextra]()
+
+12. finalizacion
 * Si todo esta bien deberia mostrarse de la siguente forma el servidor
 
-![paso14]()
+![paso14](https://github.com/xAlejo/Recursos/blob/main/DataBase/Postgresql/pg_pasos/paso_14_final.png?raw=true.png)
+
