@@ -10,7 +10,7 @@ ESTILOS DE TEXTO <br>
 
 # **ENLACE DE VIDEO**<br>
 ## Tráiler de diseño: ORA por OneTap/ Valorant <br>
-[![Alt text](https://img.youtube.com/vi/y1ZVZ5aN2yU.jpg)](https://www.youtube.com/watch?v=y1ZVZ5aN2yU) <br> <br>
+[![Alt text](https://img.youtube.com/vi/y1ZVZ5aN2yU/0.jpg)](https://www.youtube.com/watch?v=y1ZVZ5aN2yU) <br> <br>
 
 #**ENLACE DE IMAGEN** <br>
 **Visual Studio Code** <br> <br>
