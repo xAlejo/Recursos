@@ -41,4 +41,4 @@ Se respeta el encapsulamiento, porque el atributo energía es privado (__energia
 Además, los métodos como jugar, comer y dormir modifican el estado del objeto, lo que demuestra cómo se manejan los datos dentro de la clase.
 También se distingue claramente entre atributos (datos) y métodos (acciones), lo cual es fundamental en POO.
 
-- Por eso, el diagrama coincide con la lógica y estructura de mi código.
+- Por eso, el diagrama coincide con la lógica y estructura de mi código. 
